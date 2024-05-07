@@ -1,3 +1,10 @@
+import Link from "next/link";
+
 export default function Page() {
-  return <h1>Client</h1>;
+  return (
+    <div>
+      <h1>Client</h1>
+      <Link href="/">Main Page Link</Link>
+    </div>
+  );
 }

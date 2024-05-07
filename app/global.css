@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  border-bottom: 2px solid #2c2c2c;
+  padding: 20px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #cb2222;
+  margin-left: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
